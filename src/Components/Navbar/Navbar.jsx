@@ -13,7 +13,10 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? "darkNav" : ""}`}>
+      
+          <Link to="hero" smooth={true} offset={0} duration={500}>
       <h1 className="logo">EduPro</h1>
+          </Link>
       <ul>
         <li>
           {" "}
